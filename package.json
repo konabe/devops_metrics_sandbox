@@ -1,0 +1,14 @@
+{
+  "name": "devops_metrics_sandbox",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
