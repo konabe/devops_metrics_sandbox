@@ -1,0 +1,12 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@5.1.0
+
+workflows:
+  sample:
+    jobs:
+      - node/run:
+          version: "18.14"
+          pkg-manager: yarn
+          yarn-run: "start:dev"
